@@ -1,22 +1,22 @@
 ---
 # Global Settings
-- vcenter_server: [vcenter name]
-- vcenter_user: [vcenter username]
-- vcenter_pass: [vcenter password]
-- datacenter: Asia-Datacenter1
-- cluster: Asia-Cluster1
+- vcenter_server: [ausiblevc.logicalis.hk]
+- vcenter_user: [administrator@vsphere.local]
+- vcenter_pass: [P@ssw0rd]
+- datacenter: Datacenter
+- cluster: Cluster
 
 # ESXi settings
-- esxi_hostname: [esx server name]
+- esxi_hostname: [10.34.45.162]
 - esxi_username: root
-- esxi_password: [esx server password]
+- esxi_password: [ssw0rd]
 
 # VM settings
 - vm_name: VM_172
 - rhel75_template_name: rhel75_template
 - datastore: datastore1
 - network: VM Network
-- folder: /Asia-Datacenter1/vm/
+- folder: /Datacenter/vm/
 - vm_ip: 192.168.134.172
 - dns_server: 192.168.134.139
 
